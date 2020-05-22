@@ -476,6 +476,12 @@ mark,
   height: auto;
 }
 
+.img-fluid2 {
+  max-height: 500px;
+  width: auto;
+}
+
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
