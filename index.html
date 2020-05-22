@@ -95,7 +95,7 @@
                                 <p class="text-center-xs">I was the sole developer for Collab as it was made as part of my A-level coursework. Collab is a social media app used for finding teams of people to work on side projects. Its features include: creating posts, realtime messaging and a responsive search system.</p>
                                 <p class="text-center-xs"><i>Technologies: Swift, Storyboard, MVC, TCP Connections and Core Date.</i></p><br>
                                 <div class="btn-center">
-                                    <a class="btn btn-xs btn-outline-dark" href="#"></i>See More</a>
+                                    <a class="btn btn-xs btn-outline-dark" data-toggle="modal" data-target="#portfolioModal2"></i>See More</a>
                                 </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                             <p class="text-center-xs">I was the sole developer for Collab as it was made as part of my A-level coursework. Collab is a social media app used for finding teams of people to work on side projects. Its features include: creating posts, realtime messaging and a responsive search system.</p>
                             <p class="text-center-xs"><i>Technologies: Swift, Storyboard, MVC, TCP Connections and Core Date.</i></p><br>
                             <div class="btn-center">
-                                <a class="btn btn-xs btn-outline-dark" href="#"></i>See More</a>
+                                <a class="btn btn-xs btn-outline-dark" data-toggle="modal" data-target="#portfolioModal3"></i>See More</a>
                             </div>
                     </div>
                     <div class="col col-xs-offset-20 aos-init"  data-aos="fade-left" data-aos-duration="1500">
@@ -200,7 +200,8 @@
                             <div class="row justify-content-center mb-5">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase ">Project Name </h2>
-                                 <!-- Icon Divider-->
+                                 
+                                <!-- Icon Divider-->
                                  <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-line"></div>
@@ -229,6 +230,7 @@
                             <div class="">
                                 <h2 class="text-green2">Features</h2>
                             </div>
+
                             <div class="row justify-content-center mt-3">
                                 <!-- First Image (feature)-->
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
@@ -236,23 +238,87 @@
                                     <h4 class="">Log Cabin</h4>
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 </div>
+
                                 <!-- Second Image (feature)-->
                                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
                                     <h4 class="">Log Cabin</h4>
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 </div>
-             
                             </div>
-
+                            <!-- Close button-->
                             <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center mb-5">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase ">Project Name </h2>
+                                 
+                                <!-- Icon Divider-->
+                                 <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div> 
+
+                                <!-- About Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <h2 class="text-green2">iOS EriccTS</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- My role Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <h2 class="text-green2">My Role</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- Technology Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <h2 class="text-green2">Technology</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Features Section-->
+                            <div class="">
+                                <h2 class="text-green2">Features</h2>
+                            </div>
+
+                            <div class="row justify-content-center mt-3">
+                                <!-- First Image (feature)-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <h4 class="">Log Cabin</h4>
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- Second Image (feature)-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <h4 class="">Log Cabin</h4>
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+                            </div>
+                            <!-- Close button-->
+                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Portfolio Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -262,50 +328,57 @@
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                            <div class="row justify-content-center mb-5">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase ">Project Name </h2>
+                                 
+                                <!-- Icon Divider-->
+                                 <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div> 
+
+                                <!-- About Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <h2 class="text-green2">iOS EriccTS</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- My role Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <h2 class="text-green2">My Role</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- Technology Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <h2 class="text-green2">Technology</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" /><!-- Portfolio Modal - Text-->
+                            
+                            <!-- Features Section-->
+                            <div class="">
+                                <h2 class="text-green2">Features</h2>
+                            </div>
+
+                            <div class="row justify-content-center mt-3">
+                                <!-- First Image (feature)-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <h4 class="">Log Cabin</h4>
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+
+                                <!-- Second Image (feature)-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <h4 class="">Log Cabin</h4>
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 </div>
                             </div>
+                            <!-- Close button-->
+                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                         </div>
                     </div>
                 </div>
@@ -320,21 +393,57 @@
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                            <div class="row justify-content-center mb-5">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase ">Project Name </h2>
+                                 
+                                <!-- Icon Divider-->
+                                 <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div> 
+
+                                <!-- About Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <h2 class="text-green2">iOS EriccTS</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- My role Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <h2 class="text-green2">My Role</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- Technology Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <h2 class="text-green2">Technology</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 </div>
                             </div>
+                            
+                            <!-- Features Section-->
+                            <div class="">
+                                <h2 class="text-green2">Features</h2>
+                            </div>
+
+                            <div class="row justify-content-center mt-3">
+                                <!-- First Image (feature)-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <h4 class="">Log Cabin</h4>
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- Second Image (feature)-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <h4 class="">Log Cabin</h4>
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+                            </div>
+                            <!-- Close button-->
+                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                         </div>
                     </div>
                 </div>
@@ -349,26 +458,63 @@
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                            <div class="row justify-content-center mb-5">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase ">Project Name </h2>
+                                 
+                                <!-- Icon Divider-->
+                                 <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div> 
+
+                                <!-- About Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <h2 class="text-green2">iOS EriccTS</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- My role Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <h2 class="text-green2">My Role</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- Technology Section-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                    <h2 class="text-green2">Technology</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 </div>
                             </div>
+                            
+                            <!-- Features Section-->
+                            <div class="">
+                                <h2 class="text-green2">Features</h2>
+                            </div>
+
+                            <div class="row justify-content-center mt-3">
+                                <!-- First Image (feature)-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <h4 class="">Log Cabin</h4>
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+
+                                <!-- Second Image (feature)-->
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <h4 class="">Log Cabin</h4>
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                </div>
+                            </div>
+                            <!-- Close button-->
+                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
