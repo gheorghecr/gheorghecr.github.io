@@ -9,7 +9,7 @@ Hello and welcome to my personal portfolio!
 
 ![Alt Text](/assets/img/portfolio.gif)
 
-##Technologies
+## Technologies
 
 - HTML
 - CSS
