@@ -1,7 +1,5 @@
-# gheorghecr.github.io
+# [www.gheorghecr.github.io](https://gheorghecr.github.io/)
 Personal Portofolio
-
-## [www.gheorghecr.github.io](https://gheorghecr.github.io/)
 
 Hello and welcome to my personal portfolio!
 
